@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WebApi.Domain.Entities.UserManagement
+﻿namespace WebApi.Domain.Entities.UserManagement
 {
-    internal class UserRole
+    public class UserRole
     {
     }
 }
