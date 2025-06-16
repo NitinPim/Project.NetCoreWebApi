@@ -22,6 +22,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Infrastructure", "We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Persistence", "Persistence\WebApi.Persistence.csproj", "{C4DF6E8F-0FD5-4482-904E-6D0C5C6EF0C2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreLib", "CoreLib", "{FC7A9304-18F9-4DA7-A223-E4E20677094B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.Core", "Lib.Core\Lib.Core.csproj", "{4FCEF2E7-1F65-4E68-8AE0-D7665762E27F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +52,10 @@ Global
 		{C4DF6E8F-0FD5-4482-904E-6D0C5C6EF0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4DF6E8F-0FD5-4482-904E-6D0C5C6EF0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4DF6E8F-0FD5-4482-904E-6D0C5C6EF0C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FCEF2E7-1F65-4E68-8AE0-D7665762E27F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCEF2E7-1F65-4E68-8AE0-D7665762E27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCEF2E7-1F65-4E68-8AE0-D7665762E27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCEF2E7-1F65-4E68-8AE0-D7665762E27F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{A3BAAE54-E659-487B-A182-F3FED1305773} = {8D2EEBAB-884B-4519-96C5-14999C350662}
 		{346B6B06-FEF3-41AD-A1D2-20D5AB275AFC} = {8D2EEBAB-884B-4519-96C5-14999C350662}
 		{C4DF6E8F-0FD5-4482-904E-6D0C5C6EF0C2} = {8D2EEBAB-884B-4519-96C5-14999C350662}
+		{4FCEF2E7-1F65-4E68-8AE0-D7665762E27F} = {FC7A9304-18F9-4DA7-A223-E4E20677094B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECC03314-59FE-4BDF-812E-BB1CDF6F2F32}
