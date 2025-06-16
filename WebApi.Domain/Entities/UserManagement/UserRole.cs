@@ -1,6 +1,9 @@
-﻿namespace WebApi.Domain.Entities.UserManagement
+﻿using WebApi.Domain.Entities.CommonEntities;
+
+namespace WebApi.Domain.Entities.UserManagement
 {
-    public class UserRole
+    public class UserRole : NameOnlyBaseModel
     {
+
     }
 }

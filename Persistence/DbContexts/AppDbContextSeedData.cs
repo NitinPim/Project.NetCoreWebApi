@@ -1,6 +1,6 @@
 ﻿namespace WebApi.Persistence.DbContexts
 {
-    public class AppDbSeedContext
+    public class AppDbContextSeedData
     {
     }
 }
