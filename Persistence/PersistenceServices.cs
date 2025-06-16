@@ -1,7 +1,8 @@
 ﻿namespace Persistence
 {
-    public class PersistenceServices
+    public static class PersistenceServices
     {
+
 
     }
 }
